@@ -1,0 +1,123 @@
+h1 {
+  text-align: center;
+  padding: 15px;
+}
+
+h2 {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  opacity: 1.0;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+.paragraph {
+  width: 700px;
+  margin: auto;
+  color: black;
+  padding: 20px;
+}
+
+body {
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(0, 255, 55, 0.274);
+  word-wrap: break-word;
+  text-align: center;
+  word-spacing: 4px;
+}
+
+.hero-image {
+  background: url(images/pine-forest-nature.jpg) no-repeat center; 
+  background-size: cover;
+  height: 500px;
+  position: relative;
+  opacity: 0.9;
+}
+
+.button {
+  text-align: center;
+  padding: 20px;
+}
+
+table {
+  padding: 50px;
+  background-color: rgba(0, 255, 42, 0.534);
+  color: rgb(218, 213, 213);
+  font-size: 20px;
+  text-align: center;
+}
+
+.video {
+  margin: auto;
+  padding: 20px;
+}
+
+a {
+  color: white;
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.responsive {
+  padding: 0px;
+  float: center;
+  width: 40%;
+  margin: auto;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 50%;
+  }
+
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.column {
+  float: center;
+  padding: 10px;
+  height: auto;
+}
+
+
